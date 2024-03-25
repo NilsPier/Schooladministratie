@@ -1,0 +1,53 @@
+= *BUC_EI - Evaluatie Indienen*
+:toc: auto
+
+== Omschrijving
+De leerkracht wilt de evaluaties invoeren op het programma.
+
+== Actors
+*leerkracht*, student.
+
+== Preconditie
+De leerling is ingeschreven en staat in het programma.
+
+== Basispad
+. De *leerkracht* geeft een taak of test die de leerlingen moeten maken voor punten.
+. De *leerling* maakt de taak of test en dient deze in.
+. De *leerling* dient de opdracht in.
+. De *leerkracht* verbetert de taak of test.
+. De *leerkracht* maakt in het programma een nieuw onderdeel aan voor de gemaakte taak of test.
+. De *leerkracht* zorgt dat alle studenten in het programma staan en geeft de behaalde punten in bij elke leerling.
+. De *leerkracht* kiest of hij de punten wilt laten zien aan de leerlingen of niet.
+. De *leerkracht* slaat alle behaalde punten en de feedback op in het programma.
+. De *leerkracht* zet de punten aan het leerlingen dossier.
+. De *leerling* kan het resultaat zien.
+. De use case eindigt.
+
+== Postconditie
+* De punten zijn opgeslagen in het systeem en de leerlingen kunnen ze al dan niet zien.
+* Het programma zorgt ervoor dat de punten worden afgerond naar het dichtstbijzijnde volledige getal.
+
+== Alternatief A : De leerkracht verkiest om de punten onzichtbaar te houden.
+[start = 8]
+. De *leerkracht* kiest ervoor om de leerlingen hun punten niet te laten zien.
+. De *leerkracht* duidt dit aan in het programma.
+. De *leerling* kunnen nu hun punten niet zien.
+. De use case wordt verder gezet vanaf stap 9 van het basispad.
+
+== Alternatief B
+[start = 7]
+. De *leerkracht* voegt geen feedback toe.
+. De use case wordt verder gezet vanaf stap 8 van het basispad.
+
+== Scenario's
+=== SC_EI - Leerkracht Jap wil punten ingeven van studenten. 
+==== Dit scenario volgt basispad 1 + Alternatief A.
+
+|===
+|Datum |Student1 |Student2 |Vak
+
+|24-03-2024 
+|Ronaldo Mshalah
+|Jarno vannieuwehuizen 
+|Analyse
+|===
